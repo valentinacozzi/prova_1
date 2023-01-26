@@ -1,0 +1,11 @@
+import React from 'react'
+
+function Places() {
+  return (
+    <>
+    <h1 className='places'>Places</h1>
+    </>
+  )
+}
+
+export default Places
