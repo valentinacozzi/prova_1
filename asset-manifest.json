@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/prova_1/static/css/main.a7a11e49.css",
+    "main.js": "/prova_1/static/js/main.1661e41f.js",
+    "static/media/bologna.jpg": "/prova_1/static/media/bologna.58c97dbff82e6eb1d0c6.jpg",
+    "static/media/bologna_torri.jpg": "/prova_1/static/media/bologna_torri.56eaa227a40a0ad0a750.jpg",
+    "static/media/bo_uni.jpg": "/prova_1/static/media/bo_uni.aa278bb5b600408bce1e.jpg",
+    "static/media/logo_white.png": "/prova_1/static/media/logo_white.550e97cee4abc2531b61.png",
+    "index.html": "/prova_1/index.html",
+    "main.a7a11e49.css.map": "/prova_1/static/css/main.a7a11e49.css.map",
+    "main.1661e41f.js.map": "/prova_1/static/js/main.1661e41f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7a11e49.css",
+    "static/js/main.1661e41f.js"
+  ]
+}
