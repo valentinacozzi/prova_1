@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/prova_1/static/css/main.6eee4cb4.css",
-    "main.js": "/prova_1/static/js/main.7b27af1c.js",
+    "main.css": "/prova_1/static/css/main.eb0363d2.css",
+    "main.js": "/prova_1/static/js/main.9accf1d4.js",
+    "static/media/bologna_video.mp4": "/prova_1/static/media/bologna_video.6e32811952e0dfedac4e.mp4",
     "static/media/bologna.jpg": "/prova_1/static/media/bologna.58c97dbff82e6eb1d0c6.jpg",
+    "static/media/bologna_2.png": "/prova_1/static/media/bologna_2.45cf00654a4e3dd3d826.png",
     "static/media/bologna_torri.jpg": "/prova_1/static/media/bologna_torri.56eaa227a40a0ad0a750.jpg",
-    "static/media/bo_uni.jpg": "/prova_1/static/media/bo_uni.aa278bb5b600408bce1e.jpg",
+    "static/media/corpus.png": "/prova_1/static/media/corpus.54185ac58af30675147d.png",
+    "static/media/stylized_background.jpg": "/prova_1/static/media/stylized_background.49d9b7bede3bcf5bba97.jpg",
+    "static/media/uni2.jpeg": "/prova_1/static/media/uni2.b6711e4dfae72e515e62.jpeg",
+    "static/media/outline.jpg": "/prova_1/static/media/outline.b4884fafbfa4931e91dc.jpg",
+    "static/media/team.jpg": "/prova_1/static/media/team.e6d58d1b3bae349b0c9d.jpg",
+    "static/media/revicons.eot": "/prova_1/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/prova_1/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/logo_white.png": "/prova_1/static/media/logo_white.550e97cee4abc2531b61.png",
+    "static/media/revicons.woff": "/prova_1/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/slick.svg": "/prova_1/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/prova_1/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/prova_1/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/prova_1/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/prova_1/index.html",
-    "main.6eee4cb4.css.map": "/prova_1/static/css/main.6eee4cb4.css.map",
-    "main.7b27af1c.js.map": "/prova_1/static/js/main.7b27af1c.js.map"
+    "main.eb0363d2.css.map": "/prova_1/static/css/main.eb0363d2.css.map",
+    "main.9accf1d4.js.map": "/prova_1/static/js/main.9accf1d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eee4cb4.css",
-    "static/js/main.7b27af1c.js"
+    "static/css/main.eb0363d2.css",
+    "static/js/main.9accf1d4.js"
   ]
 }
