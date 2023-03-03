@@ -1,9 +1,11 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import '../App.css';
 import './HeroSection.css';
+// Bootstrap
+import Carousel from 'react-bootstrap/Carousel';
+// Imgs
 import bolo from '../assets/imgs/bologna.jpg';
-import torri from '../assets/imgs/bologna_torri.jpg'
+import torri from '../assets/imgs/bologna_torri.jpg';
 
 function HeroSection() {
     return (

@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
-  }
+    font-family: 'Poppins', sans-serif;
+    /*'Lato', sans-serif;*/
+    /*'Poppins', sans-serif;*/
+    /*'Montserrat', sans-serif;*/
+    /*'Quicksand', sans-serif;*/
+
+    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif CARINO */
+}
 
 h1, p {
   color: rgb(0, 0, 0);
@@ -12,7 +26,6 @@ h1, p {
 h1 {
   font-weight: bolder !important;
   padding-top: 5px;
-
 }
 
 h2 {
@@ -36,12 +49,307 @@ body {
   font-size: 3rem;
 }
 
-#prova_2 {
+/*SECONDARY PAGES*/
+
+/*Background img for secondary pages (Project)*/
+
+#img-background {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   position: relative;
+  z-index: 0;
+}
+.img-content {
+  position: absolute;
+  width: 100%;
+  height: 150%; /*move title: desktop vs. smartphone view*/
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0; /*E' UN PROBLEMA DELL'INDEX CHE ENTRA IN CONFLITTO CON QUELLO DEL MENU*/
+}
+
+.img-title {
+  color: #F3F3F4;
+  font-size: 2em;
+}
+
+.img-title-black{
+  color:black;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 800px) {
+  .img-content {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-content {
+    height: 45%;
+  }
+}
+
+
+/*PROJECT Page*/
+/*
+.video-container {
+  width: 100%;
+  height: 100vh;
+}
+*/
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: -2;
+}
+.video-content {
+  position: absolute;
+  width: 100%;
+  height: 150%; /*move title: desktop vs. smartphone view*/
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+.video-title {
+  color: #F3F3F4;
+  font-size: 2em;
+}
+.overlay {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  background-color:rgb(0, 0, 0, .4)
+}
+@media screen and (max-width: 600px) {
+  .video-content {
+    height: 45%;
+  }  
 }
 
+/*Team Cards*/
+.row {
+  align-items: center !important;
+}
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+#figurine {
+  align-items: center !important;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-body {
+  background-color:rgba(150, 150, 150, 0.5);
+  border: rgb(0, 0, 0);
+}
+.fa-brands {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.fa-brands:hover {
+  color: rgb(255, 255, 255);
+}
+
+/*CORPUS Page*/
+.corpus-filters {
+  align-items: center;
+}
+.col-container {
+  display: table; 
+  border-spacing: 5px;
+}
+.col-2, .col-10 {
+  display: table-cell;
+}
+
+.col-2 {
+  margin-right: 10px;
+}
+
+.filter-sidebar {
+  background-color: rgb(169, 173, 173);
+  margin-right:  5px;
+  
+}
+
+/*MAP Page*/
+
+.leaflet-container {
+  width: 100%;
+  height: 50vh;
+  z-index: 1;
+  position: relative;
+  align-content: center;
+  margin-bottom: 10px;
+}
+.leaflet-container a {
+  color:black !important;
+}
+
+
+/*Buttons of map page (redirect to Routes, Places, Travellers)*/
+.map-buttons {
+  text-align: center;
+  padding-bottom: 15px;
+}
+@media screen and (max-width: 600px) {
+  .leaflet-container {
+    height: 30vh;
+  } 
+}
+
+/*Breadcrumbs*/
+.breadcrumb {
+  margin-top: 10px;
+}
+#crumb {
+  color: rgb(0, 0, 0);
+}
+
+
+/*Heritage Routes*/
+.heritage-routes {
+  background-color: rgb(195, 193, 191);
+}
+.routes-icons { 
+  text-align: center;
+  padding-bottom: 10px;
+}
+.routes-icon {
+  font-size: 35px;
+}
+.suggested-route {
+  padding-bottom: 50px;
+}
+
+.routes-filter-buttons {
+  align-items: center;
+  text-align: center;
+}
+
+.routes-filter {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tag-buttons {
+  align-items: center !important;
+}
+.badge {
+  margin-right: 10px;
+  font-size: 15px !important;
+  padding: 0,5rem;
+}
+.side-img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.more-icon {
+  font-size: 20px;
+}
+
+.more-icon:hover {
+  color: rgb(73, 72, 72);
+}
+
+/*Places*/
+#places-card-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#places-card-text {
+  margin-top: -2px;
+}
+
+/*Travellers*/
+.slider-h2, .slider-p {
+  margin-left: 5px;
+}
+.slider-button {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: -10px;
+}
+/*
+.product--image {
+  width: 287px !important;
+  height: 300px !important;
+}
+*/
+
+/*PROFILE page*/
+.list-group {
+  margin-bottom: 5px !important;
+}
+.list-group-item{
+  background-color: #F3F3F4 !important;
+  line-height: 50px;
+}
+.main-icon {
+  font-size: 30px;
+}
+.secondary-icon {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.profile-link {
+  color: black;
+}
+.profile-link:hover {
+  color: rgb(73, 72, 72);
+}
+
+
+/*Login (signin)*/
+.sign-in-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.google-button, .facebook-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/*Profile Details */
+/* Accordion
+.accordion {
+  margin-bottom: 10px;
+}
+.accordion-body {
+  background-color: #F3F3F4;
+}
+.accordion-header {
+  background-color: #F3F3F4;
+}
+.accordion-button {
+  background-color: #F3F3F4 !important;
+}
+*/

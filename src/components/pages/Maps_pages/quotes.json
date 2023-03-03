@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Torri",
+        "lat": "44.49427",
+        "lng": "11.34677",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "French"
+    },
+    {
+        "name": "Torri_2",
+        "lat": "44.49427",
+        "lng": "11.34680",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown",
+        "language": "French"
+    },
+    {
+        "name": "San Petronio",
+        "lat": "44.492778",
+        "lng": "11.343056",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Nettuno",
+        "lat": "44.49423",
+        "lng": "11.34267",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "San Luca",
+        "lat": "44.479117",
+        "lng": "11.298069",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Archiginnasio",
+        "lat": "44.49205",
+        "lng": "11.343406",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Porta",
+        "lat": "44.490515",
+        "lng": "11.32989",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Palazzo Poggi",
+        "lat": "44.496599",
+        "lng": "11.351678",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Basilica di San Francesco",
+        "lat": "44.494913",
+        "lng": "11.335046",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Giardini Margherita",
+        "lat": "44.482377",
+        "lng": "11.352546",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Piazza Santo Stefano",
+        "lat": "44.492266",
+        "lng": "11.348138",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Pinacoteca nazionale di Bologna",
+        "lat": "44.4977",
+        "lng": "11.353469",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    },
+    {
+        "name": "Cimitero monumentale della Certosa",
+        "lat": "44.497597",
+        "lng": "11.30777",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "author": "Unknown"
+    }
+]

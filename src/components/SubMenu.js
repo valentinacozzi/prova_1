@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
+import { useTranslation } from "react-i18next";
 
 const SidebarLink = styled(HashLink)`
   display: flex;

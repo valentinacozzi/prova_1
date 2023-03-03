@@ -2,6 +2,12 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as RiIcons from 'react-icons/ri';
+import { HashLink } from 'react-router-hash-link';
+import { useTranslation } from "react-i18next";
+//import { translate } from '../i18n';
+import i18next from '../i18n';
+//import i18next from 'i18next';
+
 
 export const SidebarData = [
   {
@@ -10,7 +16,7 @@ export const SidebarData = [
     icon: <AiIcons.AiFillHome />,
   },
   {
-    title: 'Project',
+    title: i18next.t('navbar_project'), //NON LO PRENDE 
     path: '#0',
     icon: <FaIcons.FaGlobe />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -19,13 +25,13 @@ export const SidebarData = [
     subNav: [
       {
         title: 'UniVOCIttà',
-        path: '/project',
+        path: '/project', // PROVA PER COLLEGAMENTI INTRA TESTUALI
         icon: <FaIcons.FaRegLightbulb />,
         cName: 'sub-nav'
       },
       {
-        title: 'Aim',
-        path: '/',
+        title: i18next.t('navbar_project_aim'), //NON LO PRENDE
+        path: '/project',
         icon: <AiIcons.AiOutlineAim />
       }
     ]
@@ -52,7 +58,7 @@ export const SidebarData = [
       },
       {
         title: 'Contacts',
-        path: '/about/reports3',
+        path: '/about',
         icon: <FaIcons.FaEnvelope />
       }
     ]
@@ -78,7 +84,7 @@ export const SidebarData = [
       },
       {
         title: 'Query',
-        path: '/corpus/reports3',
+        path: '/corpus',
         icon: <FaIcons.FaSearch />
       }
     ]
@@ -114,5 +120,7 @@ export const SidebarData = [
         icon: <FaIcons.FaUsers />
       }
     ]
+  
   }
 ];
+

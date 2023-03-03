@@ -1,16 +1,27 @@
 import React from 'react';
 import '../../../App.css';
-import uni from '../../../assets/imgs/bo_uni.jpg';
+// Router-dom
+import { Link } from 'react-router-dom';
+// Bootstrap
+import Button from 'react-bootstrap/Button';
+// Imgs/videos
+import bologna_video from '../../../assets/videos/bologna_video.mp4';
+
 
 
 export default function Project() {
     return (
         <>
-        <div className="img_wrap">
-        <img id='prova_2' src={uni} className='img-fluid'/>
+        <div className='video-container'>
+        {/*<div className='overlay'></div>*/}
+            <video src={bologna_video} autoPlay loop muted/>
+            <div className='video-content'>
+                <h1 className='video-title'>Title</h1>
+                <Link to='/corpus'><Button className='corpus-button' variant="dark">Button</Button></Link>
+        </div>
         </div>
         <div className='container-fluid'>
-        <h1 className='project'>UniVOCIttà - Voci digitali sull'unicità del patrimonio bolognese</h1>
+        <h1 id='univocitta'>UniVOCIttà</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 

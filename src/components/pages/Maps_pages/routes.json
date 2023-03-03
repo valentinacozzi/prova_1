@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "category": "Art",
+        "title": "A title",
+        "time": "15 min",
+        "km": "3km",
+        "path": "Easy",
+        "img": "require('../../../assets/imgs/placeholder.png')",
+        "text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "more": "Find out more",
+        "tag": {
+            "tag_1": "tag",
+            "tag_2": "tag",
+            "tag_3": "tag"
+        }
+    },
+    {
+        "id": 1,
+        "category": "Art",
+        "title": "A title",
+        "time": "5 min",
+        "km": "10km",
+        "path": "Intermediate",
+        "text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img": "require('../../../assets/imgs/placeholder.png')",
+        "more": "Find out more",
+        "tag": {
+            "tag_1": "tag",
+            "tag_2": "tag",
+            "tag_3": "tag"
+        }
+    },
+    {
+        "id": 2,
+        "category": "Spiritual",
+        "title": "A title",
+        "time": "30 min",
+        "km": "5km",
+        "path": "Easy",
+        "text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img": "require('../../../assets/imgs/placeholder.png')",
+        "more": "Find out more",
+        "tag": {
+            "tag_1": "tag",
+            "tag_2": "tag",
+            "tag_3": "tag"
+        }
+    },
+    {
+        "id": 3,
+        "category": "Literature",
+        "title": "A title",
+        "time": "5 min",
+        "km": "10km",
+        "path": "Intermediate",
+        "text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img": "require('../../../assets/imgs/placeholder.png')",
+        "more": "Find out more",
+        "tag": {
+            "tag_1": "tag",
+            "tag_2": "tag",
+            "tag_3": "tag"
+        }
+    },
+    {
+        "id": 4,
+        "category": "Literature",
+        "title": "A title",
+        "time": "5 min",
+        "km": "10km",
+        "path": "Intermediate",
+        "text": "Lorem ipsum dolor sit amet, con adi elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img": "require('../../../assets/imgs/placeholder.png')",
+        "more": "Find out more",
+        "tag": {
+            "tag_1": "tag",
+            "tag_2": "tag",
+            "tag_3": "tag"
+        }
+    }
+]
